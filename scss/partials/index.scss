@@ -1,0 +1,28 @@
+/***************************
+*
+*    Index Style
+*
+****************************/
+
+.banner {
+    padding: 20px;
+    color: #dfdfdf;
+    text-align: center;
+    font-size: 24px;
+    background-color: rgba(51, 51, 51, 0.9);
+    box-shadow: 0 0 2px 2px #dfdfdf;
+}
+
+.centerImage-example {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    max-width: 640px;
+    height: 425px;
+    background-image: url(../images/cat-618470_640.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transform: translate(-50%,-50%); // autoprefixer will add prefix(s) here
+}

@@ -2,7 +2,7 @@
 
 This is an example of sass/scss and webpack integration.
 
-**Note:** This example uses webpack v2 and webpack-dev-server v2. Some settings may differ from v1's.
+**Note:** This example uses webpack v2 and webpack-dev-server v2. Some settings may differ from v1's. If you are loking for v1 setting, link is here - [webpack-sass-example](https://github.com/Joseph7451797/webpack-sass-example)
 
 ## Requirements
 - npm >=3

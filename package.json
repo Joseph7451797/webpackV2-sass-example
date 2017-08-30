@@ -4,6 +4,7 @@
   "description": "webpack V2 sass/scss setting example, with html-webpack-plugin, postcss-loader",
   "main": "index.js",
   "scripts": {
+    "webpack": "./node_modules/.bin/webpack --watch",
     "hot-dev": "./node_modules/.bin/webpack-dev-server --hot --progress --inline",
     "host": "NODE_ENV=host ./node_modules/.bin/webpack-dev-server --no-info --hot --inline --host $(ifconfig | grep -Eo 'inet (addr:)?([0-9]*\\.){3}[0-9]*' | grep -Eo '([0-9]*\\.){3}[0-9]*' | grep -v '127.0.0.1')",
     "build": "NODE_ENV=build ./node_modules/.bin/webpack --progress --profile --color"

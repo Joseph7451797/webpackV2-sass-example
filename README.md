@@ -1,3 +1,7 @@
+# Note
+
+This repository is archived and no more updates will be added. You can still take this as an example, but I strongly recommend you to follow the latest instructions in webpack's official documentaion.
+
 # webpackV2-sass-example
 
 This is an example of sass/scss and webpack integration.
